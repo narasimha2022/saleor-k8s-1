@@ -224,6 +224,7 @@ persistence:
   accessMode: ReadWriteMany
   size: 8Gi
   volumeMode: Filesystem
+  StorageClassName: "efs"
   # Uncomment storageClass: "" to disable dynamic provisioning
   # storageClass: ""
   # To use an existing PVC rather than have it provisioned by this chart,
