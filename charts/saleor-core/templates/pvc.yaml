@@ -10,6 +10,7 @@ spec:
 {{- if .Values.persistence.storageClass }}
   storageClassName: {{ .Values.persistence.storageClass }}
 {{- end }}
+volumeName: "test-saleor"
   accessModes:
     - {{ .Values.persistence.accessMode }}
   resources:
